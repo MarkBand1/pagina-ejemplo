@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Esta pagina esta hecha solamente como prueba con el uso de las tecnologias html5, css3, javascript, jquery, Bootstrap y Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkBand1/pagina-ejemplo.git"
+  },
+  "keywords": [
+    "ejemplo",
+    "Tecnologias front-end"
+  ],
+  "author": "MarkBand1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkBand1/pagina-ejemplo/issues"
+  },
+  "homepage": "https://github.com/MarkBand1/pagina-ejemplo#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
